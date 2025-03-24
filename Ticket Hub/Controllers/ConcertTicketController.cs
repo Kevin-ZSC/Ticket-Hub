@@ -36,7 +36,7 @@ namespace Ticket_Hub.Controllers
 
             //post contact to queue
 
-            string queueName = "ticket";
+            string queueName = "tickethub";
             // Get connection string from secrets.json
             string? connectionString = _configuration["AzureStorageConnectionString"];
 
